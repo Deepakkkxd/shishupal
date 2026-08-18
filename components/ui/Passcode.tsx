@@ -9,7 +9,7 @@ interface PasscodeLockProps {
 }
 
 export default function PasscodeLock({
-  passcode = "1234",
+  passcode = "0529",
   onSuccess,
 }: PasscodeLockProps) {
   const [digits, setDigits] = useState<string[]>(["", "", "", ""]);
